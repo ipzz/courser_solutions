@@ -1,0 +1,70 @@
+
+.header{
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.box{
+	width: 95%;
+	overflow: hidden;
+	margin: 10px auto;
+	padding: 50px;
+}
+
+.box ul{
+	padding: 0;
+	margin: 0;
+}
+
+.box ul li{
+	list-style: none;
+	float: left;
+	width: 275px;
+	height: 200px;
+	background: gray;
+	margin: 40px 40px 0px 55px;
+	box-sizing: border-box;
+	border: 2px solid black;
+}
+
+
+.box ul li .title1{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	background: pink;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.box ul li .title2{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	background: red;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.box ul li .title3{
+	width: 50%;
+	height: 50px;
+	line-height: 50px;
+	background: yellow;
+	text-align: center;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 750px){
+	.box{
+		width: 100%;
+		padding: 0px;
+	}
+
+	.box ul li{
+		float: none;
+		width: 90%;
+		margin: 40px auto;
+	}
+}
